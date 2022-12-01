@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increment & Decrement</title>
+<style>
+button {
+    background-color:rgb(227, 227, 227);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+border-radius: 70%;
+}
+.box{
+    border: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size:larger;
+  }
+
+</style>
+
+</head>
+
+<body>
+</div>
+
+<center><input id=Inc&Dec type=number min=1 max=1000 class="box">
+<br></center>
+<center>
+<button onclick="increment()">+</button>
+
+<button onclick="decrement()">-</button>
+</center>
+
+<script>
+
+  function increment() {
+
+  document.getElementById('Inc&Dec').stepUp();}
+
+  function decrement() {
+
+  document.getElementById('Inc&Dec').stepDown(); }
+
+</script>
+
+</body>
+</html>
